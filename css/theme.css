@@ -1,0 +1,28 @@
+.switch-navbar{ border-bottom: 1px solid #555; }
+.switch-navbar .navbar-brand{ width: 200px; padding: 4px 15px !important; }
+.switch-navbar .navbar-brand img{ width: 70%; }
+
+/* Sections */
+.section{ padding: 4em 0; }
+
+.section.section-home{ background-color: #f7f1e5; padding-top: 6em; box-sizing: border-box; }
+.section.section-home .headline{ font-size: 2.7em; line-height: 1.8em; font-family: 'Roboto Slab', serif; margin-top: 2em; }
+.section.section-home .headline:after{ content: ''; display: inline-block; width: 200px; border-top: 1px solid black; }
+.section.section-home .price{ color: dodgerblue; font-weight: bold; }
+.section.section-home .btn-join{ margin-top: 2em; padding-left: 3em; padding-right: 3em; text-transform: uppercase; background-color: white; transition: all .4s; }
+.section.section-servic{ background-color: #e8e8e8; }
+.section.section-service .headline{ margin-bottom: 2em; font-family: 'Roboto Slab', serif; }
+.section.section-service .learn-more-link{  display: block; font-weight: bold; font-size: 2em; margin-top: 4em; font-family: 'Roboto Slab', serif; }
+.section.section-service .thumbnail .caption h3{ line-height: 1.5em; }
+.section.section-featured .thumbnail>img{ height: 250px !important; }
+.section.section-membership{ background-color: #ffefef; }
+.section.section-membership .headline{ margin-bottom: 2em; font-family: 'Roboto Slab', serif; }
+.section.section-membership ul li{ font-size: 1.5em; }
+.section.section-membership h3{  }
+.section.section-membership .price{ color: dodgerblue; font-weight: bold; }
+.section.section-membership .btn-join{ padding-left: 3em; padding-right: 3em; margin-top: 1.4em; }
+/* Helper Class */
+.m-r-10{ margin-right: 10px !important; }
+.btn-join{ background-color: #fff1f0; }
+.btn{ border-radius: 3px; border-color: #555; }
+.thumbnail{ border: none; }
