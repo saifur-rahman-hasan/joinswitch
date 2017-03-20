@@ -9,19 +9,18 @@
 .section.section-home .headline{ font-size: 2.7em; line-height: 1.8em; font-family: 'Roboto Slab', serif; margin-top: 2em; }
 .section.section-home .headline:after{ content: ''; display: inline-block; width: 200px; border-top: 1px solid black; }
 .section.section-home .price{ color: dodgerblue; font-weight: bold; }
-.section.section-home .btn-join{ margin-top: 2em; padding-left: 3em; padding-right: 3em; text-transform: uppercase; background-color: white; transition: all .4s; }
+.section.section-home .btn-join{ margin-top: 2em; padding-left: 3em; padding-right: 3em; text-transform: uppercase; background-color: white; font-family: 'Exo', sans-serif; transition: all .4s; }
 .section.section-servic{ background-color: #e8e8e8; }
 .section.section-service .headline{ margin-bottom: 2em; font-family: 'Roboto Slab', serif; }
-.section.section-service .learn-more-link{  display: block; font-weight: bold; font-size: 2em; margin-top: 4em; font-family: 'Roboto Slab', serif; }
-.section.section-service .thumbnail .caption h3{ line-height: 1.5em; }
+.section.section-service .learn-more-link{  display: block; font-weight: bold; font-size: 2em; margin-top: 4em; font-family: 'Exo', sans-serif; }
+.section.section-service .thumbnail .caption h3{ line-height: 1.5em; font-family: 'Exo', sans-serif; }
 .section.section-featured .thumbnail img{ height: 250px !important; }
 .section.section-membership{ background-color: #ffefef; }
 .section.section-membership .headline{ margin-bottom: 2em; font-family: 'Roboto Slab', serif; }
 .section.section-membership ul{ margin-top: 3em; }
-.section.section-membership ul li{ font-size: 1.5em; }
-.section.section-membership h3{  }
+.section.section-membership ul li{ font-size: 1.5em; font-family: 'Exo', sans-serif; }
 .section.section-membership .price{ color: dodgerblue; font-weight: bold; }
-.section.section-membership .btn-join{ padding-left: 3em; padding-right: 3em; margin-top: 1.4em; }
+.section.section-membership .btn-join{ padding-left: 3em; padding-right: 3em; margin-top: 1.4em; font-family: 'Exo', sans-serif; }
 /* Helper Class */
 .m-r-10{ margin-right: 10px !important; }
 .btn-join{ background-color: #fff1f0; }
@@ -31,3 +30,14 @@
 .icon-tw:hover i{ color: #1da1f2; }
 .info-box{ color: #E74C3C; margin-bottom: 1.5em; }
 .text-bold{ font-weight: bold; }
+.font-exo{font-family: 'Exo', sans-serif;}
+.font-roboto{ font-family: 'Roboto Slab', serif; }
+@media screen and (max-width: 768px){
+	.section.section-home .headline:after{ display: none !important; }
+	.info-box{ margin-top: 3em; }
+	.section.section-membership ul{ margin-top: 0; }
+	.section.section-membership ul li{ font-size: 1em; }
+	.section.section-home .headline{ font-size: 1.8em; }
+	.home-img{ width: 90%; display: block; margin: 0 auto; }
+	.section.section-service .learn-more-link{ margin-top: 2em; }
+}
