@@ -14,9 +14,10 @@
 .section.section-service .headline{ margin-bottom: 2em; font-family: 'Roboto Slab', serif; }
 .section.section-service .learn-more-link{  display: block; font-weight: bold; font-size: 2em; margin-top: 4em; font-family: 'Roboto Slab', serif; }
 .section.section-service .thumbnail .caption h3{ line-height: 1.5em; }
-.section.section-featured .thumbnail>img{ height: 250px !important; }
+.section.section-featured .thumbnail img{ height: 250px !important; }
 .section.section-membership{ background-color: #ffefef; }
 .section.section-membership .headline{ margin-bottom: 2em; font-family: 'Roboto Slab', serif; }
+.section.section-membership ul{ margin-top: 3em; }
 .section.section-membership ul li{ font-size: 1.5em; }
 .section.section-membership h3{  }
 .section.section-membership .price{ color: dodgerblue; font-weight: bold; }
@@ -26,3 +27,7 @@
 .btn-join{ background-color: #fff1f0; }
 .btn{ border-radius: 3px; border-color: #555; }
 .thumbnail{ border: none; }
+.icon-fb:hover i{ color: #3b5998; }
+.icon-tw:hover i{ color: #1da1f2; }
+.info-box{ color: #E74C3C; margin-bottom: 1.5em; }
+.text-bold{ font-weight: bold; }
